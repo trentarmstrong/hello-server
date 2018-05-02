@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function (req, res) {
     var name = req.query.name || 'World';
-    res.send('Hello ' + name + ', World!');
+    res.send('Hello, ' + name + '!');
 });
 
 app.listen(3000, function () {
